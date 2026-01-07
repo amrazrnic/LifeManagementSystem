@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="financeapp.FinanceTrackerForm">
+  <grid id="27dc6" layout-manager="GridLayoutManager" row-count="2" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="542"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="61930" binding="mainPanel" layout-manager="GridLayoutManager" row-count="17" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="2" col-span="5" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-9725784"/>
+        </properties>
+        <border type="none" title="PRAĆENJE LIČNIH FINANSIJA"/>
+        <children>
+          <component id="f1f66" class="javax.swing.JTextField" binding="amountField">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1051926"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="1cd24" class="javax.swing.JTextField" binding="descriptionField">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1051926"/>
+            </properties>
+          </component>
+          <component id="b6106" class="javax.swing.JComboBox" binding="typeCombo">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Bodoni MT" size="16" style="1"/>
+              <model/>
+              <toolTipText value=""/>
+            </properties>
+          </component>
+          <component id="3f5a4" class="javax.swing.JLabel" binding="text1">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Unesite iznos"/>
+            </properties>
+          </component>
+          <component id="5d2d0" class="javax.swing.JLabel" binding="text2">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Opišite izvor prihoda"/>
+            </properties>
+          </component>
+          <component id="b797f" class="javax.swing.JLabel" binding="incomeLabel">
+            <constraints>
+              <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Prikaži ukupni prihod"/>
+            </properties>
+          </component>
+          <component id="774e" class="javax.swing.JLabel" binding="expenseLabel">
+            <constraints>
+              <grid row="14" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Prikaži ukupnu potrošnju"/>
+            </properties>
+          </component>
+          <component id="12e19" class="javax.swing.JLabel" binding="balanceLabel">
+            <constraints>
+              <grid row="15" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Prikaži balans"/>
+            </properties>
+          </component>
+          <component id="f0464" class="javax.swing.JButton" binding="updateButton">
+            <constraints>
+              <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Bodoni MT" size="16" style="1"/>
+              <text value="Ažuriraj"/>
+            </properties>
+          </component>
+          <component id="f62a" class="javax.swing.JButton" binding="deleteButton">
+            <constraints>
+              <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Bodoni MT" size="16" style="1"/>
+              <text value="Briši"/>
+            </properties>
+          </component>
+          <component id="eacfc" class="javax.swing.JButton" binding="exportButton">
+            <constraints>
+              <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Bodoni MT" size="16" style="1"/>
+              <text value="Spremi"/>
+            </properties>
+          </component>
+          <component id="a6989" class="javax.swing.JButton" binding="addButton">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Bodoni MT" size="16" style="1"/>
+              <text value="Kliknite za dodavanje"/>
+            </properties>
+          </component>
+          <component id="e211b" class="javax.swing.JComboBox" binding="categoryCombo">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <scrollpane id="8f340">
+            <constraints>
+              <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="f1f37" class="javax.swing.JTable" binding="transactionTable">
+                <constraints/>
+                <properties/>
+              </component>
+            </children>
+          </scrollpane>
+          <component id="2cc71" class="javax.swing.JLabel" binding="odaberiLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Odaberi Prihod ili Rashod"/>
+            </properties>
+          </component>
+          <component id="56aba" class="javax.swing.JLabel" binding="katetogijaLabel">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Odaberi Kategoriju"/>
+            </properties>
+          </component>
+          <component id="f699f" class="javax.swing.JButton" binding="dugmeNazad">
+            <constraints>
+              <grid row="16" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Nazad"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
