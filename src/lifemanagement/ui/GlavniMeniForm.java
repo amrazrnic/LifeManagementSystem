@@ -22,6 +22,7 @@ public class GlavniMeniForm {
         });
 
 
+
         dugmeFinanceApp.addActionListener(e -> {
             financeapp.FinanceTrackerForm financeForm = new financeapp.FinanceTrackerForm();
 

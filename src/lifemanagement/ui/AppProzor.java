@@ -5,9 +5,14 @@ import lifemanagement.SesijaKorisnika;
 import lifemanagement.ui.TemaUtil;
 
 
+
 public class AppProzor extends JFrame {
 
+    public static AppProzor INSTANCA;
+
+
     public AppProzor() {
+
         super("Life Management System");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(950, 650);

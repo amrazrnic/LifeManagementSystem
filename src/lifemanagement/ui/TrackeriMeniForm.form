@@ -21,20 +21,20 @@
           <grid row="1" column="1" row-span="4" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
         </constraints>
       </vspacer>
-      <component id="e249" class="javax.swing.JButton" binding="dugmeHabit">
+      <component id="e249" class="javax.swing.JButton" binding="dugmeVoda">
         <constraints>
           <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Habit"/>
+          <text value="Voda"/>
         </properties>
       </component>
-      <component id="58662" class="javax.swing.JButton" binding="dugmeStudy">
+      <component id="58662" class="javax.swing.JButton" binding="dugmeTrening">
         <constraints>
           <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Ucenje"/>
+          <text value="Trening"/>
         </properties>
       </component>
       <component id="d8f24" class="javax.swing.JButton" binding="dugmeFinanceMini">

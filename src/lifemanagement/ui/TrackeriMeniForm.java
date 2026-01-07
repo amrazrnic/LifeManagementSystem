@@ -5,8 +5,8 @@ import javax.swing.*;
 public class TrackeriMeniForm {
     private JPanel glavniPanel;
     private JButton dugmeSleep;
-    private JButton dugmeHabit;
-    private JButton dugmeStudy;
+    private JButton dugmeVoda;
+    private JButton dugmeTrening;
     private JButton dugmeFinanceMini;
     private JButton dugmeNazad;
 
@@ -15,6 +15,9 @@ public class TrackeriMeniForm {
     public TrackeriMeniForm(AppProzor prozor) {
         this.prozor = prozor;
 
+
+
+
         dugmeNazad.addActionListener(e ->
                 prozor.prikaziPanel(new GlavniMeniForm(prozor).getGlavniPanel())
         );
@@ -22,6 +25,14 @@ public class TrackeriMeniForm {
         dugmeSleep.addActionListener(e ->
                 prozor.prikaziPanel(new SpavanjeTrackerForm(prozor).getGlavniPanel())
         );
+        dugmeVoda.addActionListener(e ->
+                prozor.prikaziPanel(new VodaTrackerForm(prozor).getGlavniPanel())
+        );
+        dugmeTrening.addActionListener(e ->
+                prozor.prikaziPanel(new TreningTrackerForm(prozor).getGlavniPanel())
+        );
+
+
 
     }
 

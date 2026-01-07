@@ -1,4 +1,7 @@
 package financeapp;
+import lifemanagement.ui.AppProzor;
+import lifemanagement.ui.GlavniMeniForm;
+
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.util.ArrayList;
@@ -27,6 +30,8 @@ public class FinanceTrackerForm {
     private JLabel naslov;
     private TransactionManager manager;
     private String selectedId = null;
+
+
 
 
     public FinanceTrackerForm() {
@@ -262,6 +267,8 @@ public class FinanceTrackerForm {
                     "Greška pri exportu: " + ex.getMessage()
             );
         }
+
+
         //dugmeNazad.addActionListener(e -> {
             // zatvori prozor u kojem se nalazi ovaj panel
             //SwingUtilities.getWindowAncestor(mainPanel).dispose();
