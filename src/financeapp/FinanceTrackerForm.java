@@ -269,12 +269,6 @@ public class FinanceTrackerForm {
         }
 
 
-        //dugmeNazad.addActionListener(e -> {
-            // zatvori prozor u kojem se nalazi ovaj panel
-            //SwingUtilities.getWindowAncestor(mainPanel).dispose();
-        //});
-
-
 
     }
 

@@ -7,7 +7,7 @@ public class TrackeriMeniForm {
     private JButton dugmeSleep;
     private JButton dugmeVoda;
     private JButton dugmeTrening;
-    private JButton dugmeFinanceMini;
+    private JButton dugmeIshrana;
     private JButton dugmeNazad;
 
     private final AppProzor prozor;
@@ -31,6 +31,10 @@ public class TrackeriMeniForm {
         dugmeTrening.addActionListener(e ->
                 prozor.prikaziPanel(new TreningTrackerForm(prozor).getGlavniPanel())
         );
+        dugmeIshrana.addActionListener(e ->
+                prozor.prikaziPanel(new IshranaTrackerForm(prozor).getGlavniPanel())
+        );
+
 
 
 
