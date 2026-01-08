@@ -3,10 +3,10 @@ Life Management System je Java Swing desktop aplikacija koja omogućava korisnic
 Aplikacija podržava više korisnika, autentikaciju (prijavu i registraciju), upravljanje korisničkim računom i praćenje osnovnih životnih aktivnosti.
 
 ## Korištene tehnologije
-Java (Swing GUI)
-IntelliJ IDEA
-IntelliJ IDEA GUI Designer
-Git & GitHub
+- Java (Swing GUI)
+- IntelliJ IDEA
+- IntelliJ IDEA GUI Designer
+- Git & GitHub
 
 ## Pokretanje aplikacije
 Otvoriti projekat u IntelliJ IDEA
