@@ -134,8 +134,6 @@ public class ProfilForm {
             );
 
             users.updateOne(filter, update);
-
-            // očisti i na formi
             poljeIme.setText("");
             poljePrezime.setText("");
             poljeEmail.setText("");

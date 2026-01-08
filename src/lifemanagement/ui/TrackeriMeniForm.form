@@ -10,47 +10,47 @@
     <children>
       <component id="6f70f" class="javax.swing.JButton" binding="dugmeSleep">
         <constraints>
-          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Yu Gothic UI" size="14" style="1"/>
           <text value="Spavanje"/>
         </properties>
       </component>
-      <vspacer id="57830">
-        <constraints>
-          <grid row="1" column="1" row-span="4" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
-        </constraints>
-      </vspacer>
       <component id="e249" class="javax.swing.JButton" binding="dugmeVoda">
         <constraints>
-          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Yu Gothic UI" size="14" style="1"/>
           <text value="Voda"/>
         </properties>
       </component>
       <component id="58662" class="javax.swing.JButton" binding="dugmeTrening">
         <constraints>
-          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Yu Gothic UI" size="14" style="1"/>
           <text value="Trening"/>
-        </properties>
-      </component>
-      <component id="d8f24" class="javax.swing.JButton" binding="dugmeIshrana">
-        <constraints>
-          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="Ishrana"/>
         </properties>
       </component>
       <component id="a1a1d" class="javax.swing.JButton" binding="dugmeNazad">
         <constraints>
-          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Yu Gothic UI" size="14" style="1"/>
           <text value="Nazad"/>
+        </properties>
+      </component>
+      <component id="d8f24" class="javax.swing.JButton" binding="dugmeIshrana">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Yu Gothic UI" size="14" style="1"/>
+          <text value="Ishrana"/>
         </properties>
       </component>
     </children>

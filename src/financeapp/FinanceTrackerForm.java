@@ -1,11 +1,8 @@
 package financeapp;
-import lifemanagement.ui.AppProzor;
-import lifemanagement.ui.GlavniMeniForm;
-
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.util.ArrayList;
-import javax.swing.SwingUtilities;
+
 
 
 public class FinanceTrackerForm {
@@ -26,7 +23,6 @@ public class FinanceTrackerForm {
     private JButton exportButton;
     private JLabel odaberiLabel;
     private JLabel katetogijaLabel;
-    private JButton dugmeNazad;
     private JLabel naslov;
     private TransactionManager manager;
     private String selectedId = null;
